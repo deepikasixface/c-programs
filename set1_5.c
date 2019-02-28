@@ -33,4 +33,15 @@ if(a[i]=='I')
    {
     b[i]=500;
     }
-    
+   else
+    print("INVALID") ;
+ }
+ for(i=0;i<n;i=i+2) 
+  {
+  if(b[i]<b[i+1]) 
+   {
+   res=b[i+1]-b[i+1];
+   integer=res+integer;
+   }
+  printf ("%d", integer) ;
+    }
